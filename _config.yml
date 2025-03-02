@@ -31,17 +31,22 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: prismjs
+# 关闭默认的 highlight.js
 highlight:
-  line_number: true
+  enable: false  # 完全禁用highlight.js
+  line_number: false
   auto_detect: false
-  tab_replace: ''
-  wrap: true
   hljs: false
+
+# 启用 Prism.js
 prismjs:
-  preprocess: true
-  line_number: true
-  tab_replace: ''
+  enable: true       # 必须设为 true
+  preprocess: true   # 预处理代码（Hexo 5.0+ 可能需要设为 false）
+  line_number: true  # 显示行号
+  tab_replace: ''    # 替换制表符（保留空格可不替换）
+  # 可选：指定 Prism 主题（需手动添加CSS）
+  # theme: default
 index_generator:
   path: ''
   per_page: 10
