@@ -48,7 +48,7 @@ ga:
 baidu_tongji:
 
 comment:
-  enable: true
+  enable: false
   system: gitalk # 可选 gitalk、twikoo
   config:
     gitalk:
