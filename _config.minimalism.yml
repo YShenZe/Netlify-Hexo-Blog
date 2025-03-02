@@ -23,7 +23,7 @@ menu:
 
 # 深色主题
 dark_theme:
-  enable: true
+  enable: false
   mode: auto # 可选 auto、dark
 
 # 联系方式
@@ -48,14 +48,14 @@ ga:
 baidu_tongji:
 
 comment:
-  enable: false
-  system: twikoo # 可选 gitalk、twikoo
+  enable: true
+  system: gitalk # 可选 gitalk、twikoo
   config:
     gitalk:
-      clientId:
-      clientSecret:
-      repository: # 仓库名
-      owner: # 仓库所有者
+      clientId: Ov23liKLpa1lEhX2o6aV
+      clientSecret: 8a676c78dec97d0d2aadd353f6a48d66d72de852
+      repository: Netlify-Hexo-Blog # 仓库名
+      owner: YShenZe # 仓库所有者
       createIssueManually: false # 如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
     twikoo:
       envId: https://twkio.mengze.vip/
