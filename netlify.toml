@@ -9,3 +9,9 @@
 [dev]
   command = "hexo server"  
   publish = "public"       
+
+[[redirects]]
+  from = "/gemini/*"
+  to = "https://generativelanguage.googleapis.com/:splat"
+  status = 200
+  force = true
