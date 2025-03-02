@@ -1,0 +1,24 @@
+[build]
+  command = "npm run build"
+  publish = "public"
+
+[build.environment]
+  NODE_VERSION = "22"  # 推荐使用 Node.js LTS 版本
+  NPM_VERSION = "10"    # 与你的本地环境保持一致
+
+[dev]
+  command = "hexo server"  # 本地开发时使用 hexo server
+  publish = "public"       # 开发服务器也使用同一目录
+
+# 缓存配置（加速后续构建）
+[[plugins]]
+  package = "@netlify/plugin-cache"
+  [plugins.inputs]
+    paths = [
+      "node_modules",
+      "public",      # 缓存生成的静态文件
+      ".cache",      # Hexo 的缓存目录
+      "scaffolds",   # 模板文件
+      "source",      # 文章和资源
+      "themes"       # 主题文件
+    ]
