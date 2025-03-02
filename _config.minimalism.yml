@@ -1,0 +1,93 @@
+menu:
+  Index:
+    url: /
+    External: false
+    name: 📄首页
+  Tags:
+    url: /tags.html
+    External: false
+    name: 🧾标签
+  Categories:
+    url: /categories.html
+    External: false
+    name: 🗃️分类
+  About:
+    url: /about.html
+    External: false
+    name: 🤓关于
+  Hemo:
+    url: https://i.mengze.vip
+    External: true
+    name: 🏠主页
+    
+
+# 深色主题
+dark_theme:
+  enable: true
+  mode: auto # 可选 auto、dark
+
+# 联系方式
+contact:
+  github: "https://github.com/YShenZe"
+  twitter:
+  weibo:
+  zhihu:
+  facebook:
+  email: administrator@yzeblog.dev.tc
+
+# 首页头像图片
+avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+
+# 站点图标
+favicon: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+
+# 谷歌统计 跟踪 ID
+ga:
+
+# 百度统计 The baidu web analytics
+baidu_tongji:
+
+comment:
+  enable: true
+  system: twikoo # 可选 gitalk、twikoo
+  config:
+    gitalk:
+      clientId:
+      clientSecret:
+      repository: # 仓库名
+      owner: # 仓库所有者
+      createIssueManually: false # 如果当前页面没有相应的 isssue 且登录的用户属于 admin，则会自动创建 issue。如果设置为 true，则显示一个初始化页面，创建 issue 需要点击 init 按钮。
+    twikoo:
+      envId: https://twkio.mengze.vip/
+      region: ap-shanghai
+      mark: # 一个twikoo服务端应用于多个内容时，可填写此项
+
+# 底部链接
+bottom_link:
+  rss:
+    url: /rss2.xml
+    text: RSS
+  home:
+    url: https://i.mengze.vip/
+    text: Home Page
+
+# 底部显示来源信息
+bottom_source:
+  enable: true
+
+# 脚注
+footnote:
+  enable: true # 是否开启脚注解析
+  ignoreCodeBlock: false # 是否忽略代码块中的脚注
+
+# 图片配置
+image:
+  lazyload_enable: true # 图片懒加载
+  lazyload_placeholder: # 图片懒加载占位图
+  photo_zoom: simple-lightbox # 可选 simple-lightbox、fancybox、false(禁用)
+
+# cdn 配置
+cdn:
+  enable: false
+  # CDN 提供者
+  provider: jsdelivr # 可选 jsdelivr、unpkg、bootcdn
