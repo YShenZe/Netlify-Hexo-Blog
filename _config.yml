@@ -1,6 +1,6 @@
-title: ZeMeng Dev Notes
-subtitle: 'ZeMeng Development Notes'
-description: 'Devote to technology, enrich life with code.'
+title: SawaDream Development Notes
+subtitle: 'SawaDream Development Notes'
+description: 'Devote To Technology, Enrich Life With Code.'
 keywords: null
 author: ZeMeng
 language: zh-CN
@@ -31,17 +31,17 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: prismjs
+syntax_highlighter: highlight.js
 # 关闭默认的 highlight.js
 highlight:
-  enable: false  # 完全禁用highlight.js
-  line_number: false
-  auto_detect: false
-  hljs: false
+  enable: true  # 完全禁用highlight.js
+  line_number: true
+  auto_detect: true
+  hljs: true
 
 # 启用 Prism.js
 prismjs:
-  enable: true       # 必须设为 true
+  enable: false     # 必须设为 true
   preprocess: true   # 预处理代码（Hexo 5.0+ 可能需要设为 false）
   line_number: true  # 显示行号
   tab_replace: ''    # 替换制表符（保留空格可不替换）
@@ -63,7 +63,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: minimalism
+theme: icarus
 deploy:
   type: ''
   
