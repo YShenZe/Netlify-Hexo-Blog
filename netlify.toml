@@ -17,7 +17,7 @@
   force = true
 
 [[redirects]]
-  from = "/install/"
+  from = "/install.user.js"
   to = "https://cdn.mengze.vip/gh/YShenZe/MengZe-Tool-Pro@main/mengze-tool-pro.user.js"
   status = 200
   force = true
