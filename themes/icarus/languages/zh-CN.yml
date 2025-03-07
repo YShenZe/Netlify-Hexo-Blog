@@ -52,7 +52,7 @@ plugin:
     visit_count: '%s次访问'
     visitor_count: '共%s个访客'
     cookie_consent:
-      message: 此网站使用Cookie来改善您的体验。
+      message: 我们使用必要的Cookie来保证网站正常运行，同时通过统计Cookie匿名了解用户如何使用我们的服务。
       dismiss: 知道了！
       allow: 允许使用Cookie
       deny: 拒绝
