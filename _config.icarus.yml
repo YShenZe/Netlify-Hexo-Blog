@@ -106,11 +106,11 @@ head:
 navbar:
     # Navigation menu items
     menu:
-        Home: /
-        全站归档: /archives
-        文章分类: /categories
-        标签列表: /tags
-        About: /about
+        主页: /
+        归档: /archives
+        分类: /categories
+        标签: /tags
+        关于: /about
     # Links to be shown on the right of the navigation bar
     links:
         GitHub:
