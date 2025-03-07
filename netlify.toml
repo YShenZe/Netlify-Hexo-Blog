@@ -14,4 +14,10 @@
   from = "/gemini/*"
   to = "https://generativelanguage.googleapis.com/:splat"
   status = 200
+  force = tru
+
+[[redirects]]
+  from = "/install/"
+  to = "https://cdn.mengze.vip/gh/YShenZe/MengZe-Tool-Pro@main/mengze-tool-pro.user.js"
+  status = 200
   force = true
