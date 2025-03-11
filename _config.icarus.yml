@@ -3,11 +3,11 @@ version: 5.1.0
 # Icarus theme variant, can be "default" or "cyberpunk"
 variant: default
 # Path or URL to the website's logo
-logo: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/uugai.com-6705595-17416816355865.jpg
+logo: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/uugai.com-6705595-17416816355865~2.jpg
 # Page metadata configurations
 head:
     # URL or path to the website's icon
-    favicon: /images/favicon.png
+    favicon: https://jsdelivrcn.netlify.app/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
     # Web application manifests configuration
     # https://developer.mozilla.org/en-US/docs/Web/Manifest
     manifest:
