@@ -21,3 +21,13 @@
   to = "https://cdn.mengze.vip/gh/YShenZe/MengZe-Tool-Pro@main/mengze-tool-pro.user.js"
   status = 301
   force = true
+
+[[headers]]
+  for = "/rss2.html"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type"
+
+    [headers.values.OPTIONS]
+      Access-Control-Max-Age = "86400"
