@@ -30,4 +30,9 @@
     Access-Control-Allow-Headers = "Content-Type"
 
     [headers.values.OPTIONS]
-      Access-Control-Max-Age = "86400"
+      Access-Control-Max-Age = "86400
+
+[[redirects]]
+  from = "/u/7Dk4Z"
+  to = "https://proxy.mengze.vip/blm"
+  status = 200
