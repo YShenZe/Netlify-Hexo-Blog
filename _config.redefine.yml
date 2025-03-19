@@ -104,20 +104,10 @@ home:
         icon: fa-solid fa-tags
 comment:
   enable: true
-  system: giscus
+  system: waline
   config:
-    giscus:
-      repo: YZeBlog/YZeBlog.github.io
-      repo_id: R_kgDONuPfKA
-      category: Announcements
-      category_id: DIC_kwDONuPfKM4CmRdJ
-      mapping: title
-      strict: 0
-      reactions_enabled: 1
-      emit_metadata: 0
-      lang: zh-CN
-      input_position: bottom
-      loading: lazy
+    waline:
+      serverUrl: https://waline-dreamz.oknice.ca
 cdn:
   enable: true
   provider: aliyun
