@@ -1,0 +1,81 @@
+base_info:
+  primary_color: "#0066cc"
+  title: MengZe's Blog
+  author: MengZe
+  avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+  logo: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/image.png
+  favicon: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+menu:
+  Home: / || fa-solid fa-home
+  文库:
+    icon: fa-solid fa-book
+    children:
+      - 梦泽知识库: https://learn.mengze.vip/ || fa-solid fa-link
+      - 个人主页: https://i.mengze.vip || fa-solid fa-link
+      - 免费AI聊天: https://chat.mengze.vip || fa-solid fa-link
+      - 公益CDN: https://cdn.mengze.vip/ || fa-solid fa-link
+      - 通用反代: https://cdn.mengze.vip/ || fa-solid fa-link
+  categories: /categories || fa-solid fa-box-archive
+  tags: /tags || fa-solid fa-tags
+  about: /about || fa-solid fa-layer-group
+  
+first_screen:
+  enable: true
+  background_img: /images/bg.svg
+  background_img_dark: /images/bg.svg
+  description: 黄色的森林分出两条路，我选择人迹更少的那一条，从此决定我一生的道路
+  hitokoto: false
+social_contact:
+  enable: true
+  links:
+    github: https://github.com/YShenZe
+    qq: https://qm.qq.com/q/AMHt50Kiyc
+    email: administer@mengze.vip
+home:
+  announcement: 博客已切换至Keep主题，同时恢复评论系统
+  category: true
+  tag: true
+  post_datetime: updated
+  post_datetime_format: ago
+post:
+  author_badge:
+    enable: true
+    level_badge: true
+    custom_badge: ["One", "Two", "Three"]
+  word_count:
+    wordcount: true
+    min2read: true
+  datetime_format: "YYYY-MM-DD HH:mm:ss"
+  copyright_info: true  # Option values: true | false
+  share: true
+  reward:
+    enable: false
+    img_link:
+    text: 
+code_block:
+  tools:
+    enable: true
+    style: mac
+  highlight_theme: obsidian
+toc:
+  enable: true      
+  number: true      
+  expand_all: true  
+  init_open: true    
+  layout: right      
+website_count:
+  busuanzi_count:
+    enable: true     
+    site_uv: true    
+    site_pv: true    
+    page_pv: true
+local_search:
+  enable: true     
+  preload: true     
+comment:
+  enable: true
+  use: waline
+  waline:
+    server_url: https://waline-dreamz.oknice.ca
+lazyload:
+  enable: true

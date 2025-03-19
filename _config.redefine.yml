@@ -1,0 +1,123 @@
+info:
+    title: MengZe2's Blog
+    subtitle: 投身科技，用代码丰富生活
+    author: MengZe
+    url: https://mengze.vip/
+defaults:
+    favicon: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+    logo: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/image.png
+    avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+global:
+    chinese:
+        enable: true
+        family: Noto Sans SC
+        url: https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@400;500;700&display=swap
+    english:
+        enable: true
+        family: Farsan
+        url: https://fonts.googleapis.com/css2?family=Farsan&display=swap
+    hover:
+        shadow: true
+        scale: true
+    scroll_progress:
+        bar: true
+        percentage: true
+    preloader:
+        enable: true
+        custom_message: 火箭正在升空..
+fontawesome:
+    thin: false
+    light: false
+    duotone: true
+    sharp_solid: false
+home_banner:
+    title: 梦泽笔记本
+    subtitle:
+      text: ["投身科技，用代码丰富生活", "黄色的森林分出两条路，我选择人迹更少的那一条，从此决定我一生的道路"]
+    social_links:
+      enable: true
+      links:
+        github: https://github.com/YShenZe
+        fa-brands fa-qq: https://qm.qq.com/q/AMHt50Kiyc
+        fa-solid fa-envelope: administer@mengze.vip
+        fa-brands fa-linux: https://linux.do/u/yshenze/activity
+        fa-brands fa-vuejs: https://juejin.cn/user/4369923451394153
+        fa-brands fa-bilibili: https://b23.tv/03bOcmR
+    enable: true
+    style: fixed
+navbar:
+  links:
+    About:
+      path: /about
+      icon: fa-solid fa-layer-group
+    Archives:
+      path: /archives
+      icon: fa-duotone fa-solid fa-box-archive
+    Categories:
+      path: /categories
+      icon: fa-solid fa-box-archive
+    Tags:
+      path: /tags
+      icon: fa-solid fa-tags
+    个人网站: 
+      icon: fa-regular fa-user
+      submenus: 
+        梦泽知识库: 
+          path: https://learn.mengze.vip/
+          icon: fa-solid fa-link
+        个人主页: 
+          path: https://i.mengze.vip
+          icon: fa-solid fa-link
+        免费AI聊天: 
+          path: https://chat.mengze.vip
+          icon: fa-solid fa-link
+        公益CDN: 
+          path: https://cdn.mengze.vip/
+          icon: fa-solid fa-link
+        通用反代: 
+          path: https://cdn.mengze.vip/
+          icon: fa-solid fa-link
+        Github:
+          path: https://github.com/YShenZe
+          icon: fa-brands fa-github
+search:
+  enable: true
+  preload: true
+home:
+  sidebar: 
+    enable: true
+    position: left
+    first_item: menu
+    announcement: 目前博客已完整迁移至RedeFine主题
+    links:
+      About:
+        path: /about
+        icon: fa-solid fa-layer-group
+      Archives:
+        path: /archives
+        icon: fa-duotone fa-solid fa-box-archive
+      Categories:
+        path: /categories
+        icon: fa-solid fa-box-archive
+      Tags:
+        path: /tags
+        icon: fa-solid fa-tags
+comment:
+  enable: true
+  system: giscus
+  config:
+    giscus:
+      repo: YZeBlog/YZeBlog.github.io
+      repo_id: R_kgDONuPfKA
+      category: Announcements
+      category_id: DIC_kwDONuPfKM4CmRdJ
+      mapping: title
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      lang: zh-CN
+      input_position: bottom
+      loading: lazy
+cdn:
+  enable: true
+  provider: aliyun

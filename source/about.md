@@ -1,6 +1,6 @@
 ---
 layout: pages
-title: 关于梦泽
+title: about
 date: 2025-03-02 08:44:13
 tags:
 ---
