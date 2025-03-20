@@ -59,6 +59,9 @@ navbar:
     Tags:
       path: /tags
       icon: fa-solid fa-tags
+    Friends:
+      icon: fa-solid fa-link
+      path: /links
     个人网站: 
       icon: fa-regular fa-user
       submenus: 

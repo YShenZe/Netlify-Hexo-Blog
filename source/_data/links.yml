@@ -1,0 +1,8 @@
+- links_category: Friends
+  has_thumbnail: false
+  list:
+      - name: 夜晚长梦
+        link: 长夜漫漫，晚梦仍在
+        description: 长夜漫漫，晚梦仍在
+        avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3276839942&spec=640
+        thumbnail:
