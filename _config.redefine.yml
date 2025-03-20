@@ -8,6 +8,7 @@ defaults:
     logo: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/image.png
     avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
 global:
+    single_page: true
     chinese:
         enable: true
         family: Noto Sans SC
@@ -105,12 +106,12 @@ home:
       Tags:
         path: /tags
         icon: fa-solid fa-tags
+      Friends:
+        icon: fa-solid fa-link
+        path: /links
 comment:
   enable: true
   system: waline
   config:
     waline:
       serverUrl: https://waline-dreamz.oknice.ca
-cdn:
-  enable: true
-  provider: aliyun

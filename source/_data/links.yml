@@ -2,7 +2,30 @@
   has_thumbnail: false
   list:
       - name: 夜晚长梦
-        link: 长夜漫漫，晚梦仍在
+        link: https://lemwood.uno/
         description: 长夜漫漫，晚梦仍在
         avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3276839942&spec=640
+        thumbnail:
+- links_category: WebSites
+  has_thumbnail: false
+  list:
+      - name: 梦泽知识库
+        link: https://learn.mengze.vip/
+        description: 从代码到架构，构建完整技术体系
+        avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+        thumbnail:
+      - name: Universal-Proxy
+        link: https://proxy.mengze.vip/
+        description: 通用反代
+        avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+        thumbnail:
+      - name: 免费AI聊天
+        link: https://chat.mengze.vip/
+        description: 新一代免费AI聊天网站
+        avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
+        thumbnail:
+      - name: Jsdelivr镜像
+        link: https://cdn.mengze.vip/
+        description: 提供长期免费的Jsdelivr镜像
+        avatar: https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1f94e9c693374150b1f8dfd8de0fcce1.jpeg
         thumbnail:
