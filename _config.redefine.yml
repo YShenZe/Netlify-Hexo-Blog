@@ -35,6 +35,9 @@ home_banner:
     title: 梦泽笔记本
     subtitle:
       text: ["投身科技，用代码丰富生活", "黄色的森林分出两条路，我选择人迹更少的那一条，从此决定我一生的道路"]
+    image:
+      light: https://www.helloimg.com/i/2025/03/28/67e577ea6ec67.jpg
+      dark: https://www.helloimg.com/i/2025/03/28/67e577ea6ec67.jpg
     social_links:
       enable: true
       links:
