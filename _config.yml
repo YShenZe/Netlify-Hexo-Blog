@@ -9,8 +9,8 @@ url: https://mengze.vip
 permalink: '/:title'
 permalink_defaults: null
 pretty_urls:
-  trailing_index: false
-  trailing_html: false
+  trailing_index: true
+  trailing_html: true
 source_dir: source
 public_dir: public
 tag_dir: tags
