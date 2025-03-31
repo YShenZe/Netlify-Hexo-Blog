@@ -5,8 +5,8 @@ keywords: null
 author: 梦泽
 language: zh-CN
 timezone: ''
-url: https://mengze.vip/
-permalink: '/:title.html'
+url: https://mengze.vip
+permalink: '/:title'
 permalink_defaults: null
 pretty_urls:
   trailing_index: false
