@@ -6,7 +6,7 @@ author: 梦泽
 language: zh-CN
 timezone: ''
 url: https://mengze.vip
-permalink: '/:title'
+permalink: '/:title.html'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
