@@ -69,13 +69,12 @@ navbar:
     个人网站: 
       icon: fa-regular fa-user
       submenus:
-        梦泽知识库: https://learn.mengze.vip/  # 直接写 URL，无需嵌套字段
+        梦泽知识库: https://learn.mengze.vip/
         个人主页: https://i.mengze.vip
         免费AI聊天: https://chat.mengze.vip
         公益CDN: https://cdn.mengze.vip/
         通用反代: https://cdn.mengze.vip/
-        Github: https://github.com/YShenZe
-          icon: fa-brands fa-github  # 如果单独定义图标，可以保留
+        Github: https://github.com/YShenZ
 search:
   enable: true
   preload: true
