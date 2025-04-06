@@ -6,6 +6,11 @@
         description: 长夜漫漫，晚梦仍在
         avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3276839942&spec=640
         thumbnail:
+      - name: LineXic书屋
+        link: https://linexic.top
+        description: 念念不忘，必有回响
+        avatar: https://linexic.top/avatar.webp
+        thumbnail:
 - links_category: WebSites
   has_thumbnail: false
   list:
