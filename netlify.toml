@@ -27,6 +27,16 @@
   status = 301
   force = true
 
+[[redirects]]
+  from = "/turbofely"
+  to = "https://unpkg.com/turbofely@1.0.0/src/turbofely.js"
+  status = 200
+
+[[redirects]]
+  from = "/turbofely/demo"
+  to = "https://unpkg.com/turbofely@1.0.0/demo/index.html"
+  status = 200
+
 [[headers]]
   for = "/rss2.html"
   [headers.values]
