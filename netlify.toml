@@ -37,6 +37,12 @@
   to = "https://unpkg.com/turbofely@1.0.0/demo/index.html"
   status = 200
 
+[[redirects]]
+  from = "/wss1"
+  to = "ws://hbsx.zyeidc.cn:52300"
+  status = 200
+  force = true
+
 [[headers]]
   for = "/rss2.html"
   [headers.values]
