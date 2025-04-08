@@ -52,3 +52,13 @@
 
     [headers.values.OPTIONS]
       Access-Control-Max-Age = "86400"
+
+[[headers]]
+  for = "/wss1"
+  [headers.values]
+    "Upgrade" = "$http_upgrade"
+    "Connection" = "upgrade"
+    "Proxy-Connection" = "upgrade"
+    "X-Forwarded-Proto" = "wss"
+    "X-Forwarded-For" = "$remote_addr"
+    "Host" = "hbsx.zyeidc.cn"
