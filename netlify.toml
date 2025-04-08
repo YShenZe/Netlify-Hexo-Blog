@@ -36,3 +36,8 @@
   from = "/turbofely/demo"
   to = "https://unpkg.com/turbofely@1.0.0/demo/index.html"
   status = 200
+
+[[redirects]]
+  from = "clipboard"
+  to = "http://hbsx.zyeidc.cn:52300/"
+  status = 200
