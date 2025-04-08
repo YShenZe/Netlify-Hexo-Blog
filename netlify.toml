@@ -38,6 +38,6 @@
   status = 200
 
 [[redirects]]
-  from = "clipboard"
-  to = "http://hbsx.zyeidc.cn:52300/"
+  from = "/deepseek"
+  to = "http://hbsx.zyeidc.cn:52000/"
   status = 200
