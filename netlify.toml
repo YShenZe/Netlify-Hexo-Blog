@@ -44,5 +44,5 @@
 
 [[redirects]]
   from = "/uptimerobot"
-  to = "https://api.uptimerobot.com"
+  to = "https://api.uptimerobot.com/v2/getMonitors"
   status = 200
