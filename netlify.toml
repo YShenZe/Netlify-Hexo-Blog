@@ -44,5 +44,5 @@
 
 [[redirects]]
   from = "/uptimerobot"
-  to = "https://api.uptimerobot.com/"
+  to = "https://api.uptimerobot.com"
   status = 200
