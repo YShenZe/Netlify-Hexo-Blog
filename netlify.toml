@@ -41,3 +41,8 @@
   from = "/deepseek"
   to = "http://hbsx.zyeidc.cn:52000/"
   status = 200
+
+[[redirects]]
+  from = "/uptimerobot"
+  to = "https://api.uptimerobot.com/"
+  status = 200
