@@ -31,6 +31,23 @@
     <span class="split-line">|</span>
     <div class="sea-footer-theme-by">
       {{ _p('footer.theme_source', '<a class="theme" href="https://github.com/hai-zou/hexo-theme-sea" target="_blank">Sea</a>') }}
+{% if theme.global.website_counter.enable %}
+    <script {% if theme.global.single_page %}data-swup-reload-script{% endif %} src="{% if theme.global.website_counter.url %}{{ theme.global.website_counter.url }}{% else %}https://vercount.one/js{% endif %}"></script>
+    <div class="relative text-center lg:absolute lg:right-[20px] lg:top-1/2 lg:-translate-y-1/2 lg:text-right">
+        {% if theme.global.website_counter.site_uv %}
+            <span id="busuanzi_container_site_uv" class="lg:!block">
+                <span class="text-sm">{{ __('site_uv') }}</span>
+                <span id="busuanzi_value_site_uv"></span>
+            </span>
+        {% endif %}
+        {% if theme.global.website_counter.site_pv %}
+            <span id="busuanzi_container_site_pv" class="lg:!block">
+                <span class="text-sm">{{ __('site_pv') }}</span>
+                <span id="busuanzi_value_site_pv"></span>
+            </span>
+        {% endif %}
+    </div>
+{% endif %}
     </div>
   </div>
 </footer>
