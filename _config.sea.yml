@@ -93,3 +93,11 @@ primaryColor: '#10b981'
 # 目录
 tableOfContents:
   enable: false
+
+global:
+  website_counter:
+    enable: true
+    url: 'https://vercount.one/js'
+    site_uv: true
+    site_pv: true
+  single_page: false
