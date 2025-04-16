@@ -1,0 +1,95 @@
+# 首页配置
+home:
+  hero:
+    name: 梦泽
+    intro: 梦泽博客志是梦泽搭建的个人博客 这里包含了前端、后端、云原生、游戏、文学作品等内容，托管于Github使用Netlify搭建，基于Hexo
+    avatar: https://mzurl.xyz/b4efsr
+  posts: recent # recent: 最新文章 | recommend: 推荐文章
+
+# 所有文章
+articles:
+  path: 'articles' # 路由
+  per_page: 10 # 分页数
+  order_by: -date # 文章排序
+
+# 菜单栏
+menu:
+  - name: Archives
+    url: /archives
+  - name: Links
+    url: /links
+  - name: Categories
+    url: /categories
+  - name: About
+    url: /about/
+  - name: Tags
+    url: /tags
+  - name: HomePage
+    url: https://i.mengze.vip/
+    
+
+comment:
+  enable: true
+  type: waline
+
+# Waline https://waline.js.org/
+waline:
+  serverURL: https://waline-dreamz.oknice.ca
+  options:
+
+# Giscus https://giscus.app/zh-CN
+giscus:
+  repo:
+  repoid:
+  category:
+  categoryid:
+  mapping:
+  term:
+  reactionsenabled:
+  emitmetadata:
+  inputposition:
+  loading:
+
+search:
+  enable: false
+  type: # algolia
+
+# Docsearch https://docsearch.algolia.com/apply/
+algolia:
+  appId: 
+  apiKey: 
+  indexName: 
+
+# 友链模块
+friends:
+  - name: 夜挽长梦
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3276839942&spec=640
+    link: https://blog.latedream.cn
+    desc: 长夜漫漫，晚梦仍在
+  - name: Linexic书屋
+    avatar: https://www.linexic.top/avatar.webp
+    link: https://linexic.top/
+    desc: 念念不忘，必有回响
+
+footer:
+  builtUpTime: 2021-05-20 13:14:00
+
+# 社交链接
+socialLink:
+  - name: Email
+    link: mailto:administer@mengze.vip
+  - name: RSS
+    link: /rss2.xml
+  - name: Home
+    link: https://i.mengze.vip/
+  - name: ShortURL
+    link: https://mzurl.xyz/
+  - name: Github
+    link: https://github.com/YShenZe
+
+# 主题色
+primaryColor: '#10b981'
+
+# 目录
+tableOfContents:
+  enable: false

@@ -1,0 +1,21 @@
+{{ partial('_partial/main/hero') }}
+
+{% if theme.home.posts == 'recommend' %}
+  <h2 class="sea-index-title">
+    {{ __('home.recommendedPosts') }}
+  </h2>
+  {{ partial('_partial/post/post_list', {post_list: recommendedPosts}) }}
+{% elif theme.home.posts == 'recent' %}
+  <h2 class="sea-index-title">
+    {{ __('home.recentPosts') }}
+  </h2>
+  {{ partial('_partial/post/post_list', {post_list: recentPosts}) }}
+{% else %}
+{% endif %}
+
+<div class="sea-index-all-posts">
+  <a class="sea-index-all-posts__link" href="{{ url_for(theme.articles.path) }}">
+    {{ __('home.allPosts') }}
+    {{ partial('svg/arrow_right') }}
+  </a>
+</div>

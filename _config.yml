@@ -1,4 +1,4 @@
-title: 梦泽开发笔记本
+title: MengZe2's Blog
 subtitle: 'MengZe Development Notes'
 description: '梦泽博客志是梦泽搭建的个人博客 这里包含了前端、后端、云原生、游戏、文学作品等内容，托管于Github使用Netlify搭建，基于Hexo'
 keywords: null
@@ -6,7 +6,7 @@ author: 梦泽
 language: zh-CN
 timezone: ''
 url: https://mengze.vip
-permalink: '/:title.html'
+permalink: '/articles/:title.html'
 permalink_defaults: null
 pretty_urls:
   trailing_index: true
@@ -31,15 +31,11 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
-highlight:
-  enable: true
-  line_number: true
-  auto_detect: true
-  hljs: true
+syntax_highlighter: prismjs
 prismjs:
-  enable: false
-  preprocess: false
+  preprocess: true
+  line_number: true
+  line_threshold: 0
   tab_replace: ''
 index_generator:
   path: ''
@@ -57,7 +53,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
-theme: redefine
+theme: sea
 deploy:
   type: ''
 feed:
