@@ -46,3 +46,8 @@
   from = "/uptimerobot"
   to = "https://api.uptimerobot.com/v2/getMonitors"
   status = 200
+
+[[redirects]]
+  from = "/simpdoc"
+  to = "https://yuque.com/simpfox/simpdoc"
+  status = 302
