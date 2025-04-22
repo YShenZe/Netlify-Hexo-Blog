@@ -60,6 +60,10 @@ algolia:
 
 # 友链模块
 friends:
+  - name: 勿念的博客
+    avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3866582662&spec=640
+    link: https://wuni.netlify.app
+    desc: ❤️❤️爱徒博客❤️❤️
   - name: 夜挽长梦
     avatar: https://q.qlogo.cn/headimg_dl?dst_uin=3276839942&spec=640
     link: https://blog.latedream.cn
