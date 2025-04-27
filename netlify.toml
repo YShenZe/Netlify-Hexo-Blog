@@ -51,3 +51,8 @@
   from = "/simpdoc"
   to = "https://yuque.com/simpfox/simpdoc"
   status = 302
+
+[[redirects]]
+  from = "/avatar"
+  to = "https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/IMG_20250410_142254.jpg"
+  status = 302
