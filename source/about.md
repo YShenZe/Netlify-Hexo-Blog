@@ -10,6 +10,9 @@ tags:
 你好，我是梦泽。
 是的，你没有看错，我的博客经历第7次推翻重做后，终于以这个形态重生啦！
 
+## 本站微信公众号
+![1750835615534.png](https://cdn.mengze.vip/gh/YShenZe/Blog-Static-Resource@main/images/1750835615534.png)
+
 ## 联系方式
 🚀 **QQ**：3268612069  
 📮 **邮箱**：administer@mengze.vip
