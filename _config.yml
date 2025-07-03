@@ -72,3 +72,8 @@ search:
   field: post
   content: true
   format: striptags
+typecho:
+	authorId: 1
+	images: 'images'
+	mid: 10
+	cid: 10
